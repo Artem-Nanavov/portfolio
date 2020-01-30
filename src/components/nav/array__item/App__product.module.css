@@ -1,0 +1,38 @@
+.container {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+@media screen and ( max-width: 1110px ) {
+    .container {
+        max-width: 900px;
+        width: 100%;
+    }
+
+    .none {
+        display: none;
+    }
+}
+
+@media screen and ( max-width: 1110px ) {
+    .wrap {
+        margin: 0 20px;
+    }
+
+    .none__2 {
+        display: none;
+    }
+}
+
+@media screen and ( max-width: 570px ) {
+    .none_3 {
+        display: none !important;
+    }
+
+    .margin {
+        margin: 0 auto;
+    }
+}
+
